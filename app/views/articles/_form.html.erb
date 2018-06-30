@@ -1,0 +1,9 @@
+<%= form_for(article) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title, placeholder: '제목을 입력해', class:'hack' %>
+  
+  <%= f.label :content %>
+  <%= f.text_area:content %>
+  
+  <%= f.submit value: '얍'%>
+<% end %>
